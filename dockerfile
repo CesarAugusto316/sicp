@@ -16,4 +16,4 @@ COPY yarn.lock  ./
 
 RUN yarn install --production
 
-CMD [ "node", "chap_00/index.js" ]
+CMD [ "node", "chap_00/main.js" ]
