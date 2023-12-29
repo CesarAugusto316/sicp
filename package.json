@@ -1,0 +1,15 @@
+{
+  "name": "sicp",
+  "version": "1.0.0",
+  "description": "structure and interpretation of computer programs javascript edition",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "yarn run test"
+  },
+  "author": "césar rivera",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
