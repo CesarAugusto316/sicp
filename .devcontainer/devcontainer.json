@@ -9,6 +9,9 @@
 		"dockerfile": "../dockerfile"
 	},
 	"postCreateCommand": "git config --global --add safe.directory /workspaces/sicp",
+	// git config --global core.autocrlf true
+	//  "git config --global user.name 'cesaraugusto316'",
+	//   "git config --global user.email 'riveramirandac@gmail.com'"
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -28,10 +31,8 @@
 	// "forwardPorts": [],
 
 	// Uncomment the next line to run commands after the container is created.
-	
-		//  "git config --global user.name 'cesaraugusto316'",
-  	//   "git config --global user.email 'riveramirandac@gmail.com'"
-	
+
+
 		// Configure tool-specific properties.
 	// "customizations": {},
 
