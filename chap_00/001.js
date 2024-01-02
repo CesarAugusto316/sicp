@@ -26,9 +26,9 @@ function condition(predicate, thenClause, elseClause) {
   return predicate ? thenClause : elseClause;
 }
 
-const n = condition(true, 1, 2);
+// const n = condition(true, 1, 2);
 
-function sqrtIter(guess, x) {
+export function sqrtIter(guess, x) {
   return condition(
     isGoodEnough(guess, x),
     guess,
